@@ -287,7 +287,7 @@ body {
 }
 
 .text-accent_violet {
-  color: #c51bf0;
+  color: #eb5d2a;
 }
 .text-accent_aqua {
   color: #5eecff;
@@ -449,7 +449,7 @@ body {
 }
 .block-cross-in-link:hover .block-cross-in-link__right-elements::before,
 .block-cross-in-link:active .block-cross-in-link__right-elements::before {
-  background-color: #c51bf0;
+  background-color: #eb5d2a;
 }
 
 ._centered {
@@ -1997,7 +1997,7 @@ body::after {
   opacity: 40%;
 }
 .position-button:hover .position-button__link::after {
-  background-color: #c51bf0;
+  background-color: #eb5d2a;
 }
 
 @supports (margin-bottom: clamp(5rem, 1.25rem + 16.6666666667vw, 11.25rem)) {
@@ -2235,7 +2235,7 @@ body::after {
 .moving-text_l-to-r,
 .moving-text_r-to-l {
   fill: none;
-  stroke: #c51bf0;
+  stroke: #eb5d2a;
   width: auto;
   opacity: 0.7;
 }
@@ -3553,8 +3553,8 @@ body::after {
 .slide-comm__button {
   font-size: 24px;
   line-height: 32px;
-  color: #c51bf0;
-  border-bottom: 1px dashed #c51bf0;
+  color: #eb5d2a;
+  border-bottom: 1px dashed #eb5d2a;
   margin-top: 0.5rem;
   background-color: inherit;
 }
@@ -3754,10 +3754,10 @@ button::-moz-focus-inner {
 }
 .animated-link__append_outlined {
   color: #090808;
-  text-shadow: 0 0 1px #c51bf0, 0 0 1px #c51bf0, 0 0 1px #c51bf0,
-    0 0 1px #c51bf0, 0 0 1px #c51bf0, 0 0 1px #c51bf0, 0 0 1px #c51bf0,
-    0 0 1px #c51bf0, 0 0 1px #c51bf0, 0 0 1px #c51bf0, 0 0 1px #c51bf0,
-    0 0 1px #c51bf0;
+  text-shadow: 0 0 1px #eb5d2a, 0 0 1px #eb5d2a, 0 0 1px #eb5d2a,
+    0 0 1px #eb5d2a, 0 0 1px #eb5d2a, 0 0 1px #eb5d2a, 0 0 1px #eb5d2a,
+    0 0 1px #eb5d2a, 0 0 1px #eb5d2a, 0 0 1px #eb5d2a, 0 0 1px #eb5d2a,
+    0 0 1px #eb5d2a;
 }
 .animated-link:hover .animated-link__wrapper,
 .animated-link:focus .animated-link__wrapper {
@@ -4186,9 +4186,9 @@ button::-moz-focus-inner {
 }
 
 .typed-cursor {
-  color: #c51bf0;
-  -webkit-text-fill-color: #c51bf0;
-  text-fill-color: #c51bf0;
+  color: #eb5d2a;
+  -webkit-text-fill-color: #eb5d2a;
+  text-fill-color: #eb5d2a;
   font-family: 'SF Pro';
   font-weight: 100;
   text-indent: -6.25rem;
