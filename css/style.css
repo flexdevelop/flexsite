@@ -3154,6 +3154,7 @@ body::after {
     margin-bottom: calc(5rem + 6.25 * (100vw - 22.5rem) / 37.5);
   }
 }
+
 .comments {
   position: relative;
 }
@@ -4714,4 +4715,72 @@ button::-moz-focus-inner {
   .text-relocate__hashes {
     font-size: calc(1.5rem + 0.375 * (100vw - 22.5rem) / 37.5);
   }
+}
+
+@supports (margin-bottom: clamp(5rem, 1.25rem + 16.6666666667vw, 11.25rem)) {
+  .contact-form__wrapper {
+    margin-top: clamp(5rem, 1.25rem + 16.6666666667vw, 11.25rem);
+  }
+}
+@supports not (
+  margin-bottom: clamp(5rem, 1.25rem + 16.6666666667vw, 11.25rem)
+) {
+  .contact-form__wrapper {
+    margin-top: calc(5rem + 6.25 * (100vw - 22.5rem) / 37.5);
+  }
+}
+
+@supports (padding: clamp(2rem, 1.25rem + 16.6666666667vw, 6rem)) {
+  .contact-form {
+   padding: clamp(2rem, 1.25rem + 16.6666666667vw, 6rem);
+  }
+}
+@supports not (
+  padding: clamp(2rem, 1.25rem + 16.6666666667vw, 6rem)
+) {
+  .contact-form {
+    padding: calc(2rem + 6.25 * (100vw - 22.5rem) / 37.5);
+  }
+}
+
+
+.contact-form__title {
+ text-align: center;
+ max-width: 100%;
+}
+
+
+/* Elements */
+.contact-form__heading {
+  text-align: center;
+}
+
+.contact-form__label,
+.contact-form__input,
+.contact-form__textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-form__input,
+.contact-form__textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  resize: vertical;
+}
+
+/* Modifiers */
+.contact-form__submit {
+  background-color: #eb5d2a;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.contact-form__submit:hover {
+  background-color: #eb5d2a;
 }
