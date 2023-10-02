@@ -4732,27 +4732,29 @@ button::-moz-focus-inner {
 
 @supports (padding: clamp(2rem, 1.25rem + 16.6666666667vw, 6rem)) {
   .contact-form {
-   padding: clamp(2rem, 1.25rem + 16.6666666667vw, 6rem);
+    padding: clamp(2rem, 1.25rem + 16.6666666667vw, 6rem);
   }
 }
-@supports not (
-  padding: clamp(2rem, 1.25rem + 16.6666666667vw, 6rem)
-) {
+@supports not (padding: clamp(2rem, 1.25rem + 16.6666666667vw, 6rem)) {
   .contact-form {
     padding: calc(2rem + 6.25 * (100vw - 22.5rem) / 37.5);
   }
 }
 
-
 .contact-form__title {
- text-align: center;
- max-width: 100%;
+  text-align: center;
+  max-width: 100%;
+  font-family: 'Roboto Mono', sans-serif;
+  color: #9b9b9b;
 }
-
 
 /* Elements */
 .contact-form__heading {
   text-align: center;
+}
+
+.contact-form__label {
+  color: #9b9b9b;
 }
 
 .contact-form__label,
@@ -4766,13 +4768,16 @@ button::-moz-focus-inner {
 .contact-form__textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #9b9b9b;
   border-radius: 3px;
+  color: white;
   resize: vertical;
+  background: rgba(238, 237, 228, 0.02);
 }
 
 /* Modifiers */
 .contact-form__submit {
+  margin-top: 14px;
   background-color: #eb5d2a;
   color: #fff;
   border: none;
