@@ -106,12 +106,12 @@ body {
 }
 
 h4.text-grey {
-  color: rgba(68, 70, 73, 0.9);
+  color: white;
   font-family: "Raleway", "sans-serif";
 }
 
 p.text-grey {
-  color: rgba(68, 70, 73, 0.7);
+  color: white;
   font-weight: 600;
   font-family: "Raleway", "sans-serif";
 }
@@ -122,12 +122,16 @@ p.text-grey {
 
 .custom-link {
   text-decoration: none;
-  color: #04c2c9;
+  color: #e95d2b;
+}
+
+.progress {
+  color: white;
 }
 
 .custom-link:hover {
   text-decoration: none;
-  color: #04c2c9;
+  opacity: 0.7;
 }
 
 .progress {
@@ -138,15 +142,14 @@ p.text-grey {
 
 .progress-skill {
   border-radius: 0;
-  background: #04c2c9;
-  font-family: "Raleway", "sans-serif";
+  background: #e95d2b;
   font-weight: bold;
   font-size: 1.2em;
 }
 
 .progress-fill {
   border-radius: 0;
-  background: #00a1a7;
+  background: #9ea4a4;
 }
 
 .ninetyFill {
@@ -170,7 +173,6 @@ p.text-grey {
 }
 
 .progress-value {
-  font-family: "Raleway", "sans-serif";
   margin: auto;
   font-size: 1.2em;
 }
@@ -405,7 +407,11 @@ textarea {
   align-items: center;
 }
 .about-header {
-  color: #eb5d2a;
+  color: white;
+  font-size: 30px;
+}
+
+.about-header-name {
 }
 
 .aboutText {
